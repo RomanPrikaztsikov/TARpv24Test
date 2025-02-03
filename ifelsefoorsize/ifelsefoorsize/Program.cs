@@ -28,7 +28,7 @@
             else if (shoeSize >= 45 && shoeSize <= 48)
             {
                 Console.Beep();
-                Console.WriteLine("Beep sound played");
+                Console.WriteLine("Beep sound");
             }
             else
             {
