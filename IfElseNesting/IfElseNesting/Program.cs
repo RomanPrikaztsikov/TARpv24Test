@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Number Control!");
 
-            int number = 189;
+            int number = 190;
 
             //kontrollistakse kas arv on suurem kui 189-st
             if (number > 189)
@@ -16,7 +16,7 @@
                 Console.WriteLine("Number is bigger");
 
                 //if ja else nestmine
-                if (number > 190 && number < 200)
+                if (number >= 190 && number <= 200)
                 {
                     Console.WriteLine("number is between 190 to 200");
                 }
